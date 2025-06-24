@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "id": "1750744027623",
+      "login": "nblchd",
+      "password": "123456",
+      "email": "qwe@mail.tu",
+      "name": "test",
+      "createdAt": "2025-06-24T05:47:07.623Z"
+    }
+  ],
+  "feedbacks": [
+    {
+      "id": "1750744225864",
+      "name": "test",
+      "text": "12321312321312",
+      "userId": "1750744027623",
+      "createdAt": "2025-06-24T05:50:25.864Z"
+    }
+  ]
+}
