@@ -7,6 +7,15 @@
       "email": "qwe@mail.tu",
       "name": "test",
       "createdAt": "2025-06-24T05:47:07.623Z"
+    },
+    {
+      "id": "1750749546300",
+      "login": "admin",
+      "password": "admin123",
+      "email": "test@test.com",
+      "name": "admin",
+      "role": "admin",
+      "createdAt": "2025-06-24T07:19:06.300Z"
     }
   ],
   "feedbacks": [

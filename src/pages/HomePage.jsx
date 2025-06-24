@@ -50,7 +50,7 @@ const featuredLabs = [
 ];
 
 const achievements = [
-  { label: 'Лабораторных выполнено', value: '10', icon: <Assignment /> },
+  { label: 'Лабораторных выполнено', value: '9', icon: <Assignment /> },
   { label: 'Компонентов создано', value: '25+', icon: <Code /> },
   { label: 'API endpoints', value: '8', icon: <Api /> },
 ];

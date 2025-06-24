@@ -79,6 +79,13 @@ const labs = [
     description: 'Material-UI, responsive design',
     color: 'primary'
   },
+  {
+    id: 8,
+    title: 'Администрирование',
+    icon: <Storage />,
+    description: 'React Table, роли, админ панель',
+    color: 'secondary'
+  },
 ];
 
 export default function ResponsiveDrawer({ open, onClose, variant = 'temporary' }) {

@@ -19,8 +19,12 @@ import Lab4 from './pages/Lab4';
 import Lab5 from './pages/Lab5';
 import Lab6 from './pages/Lab6';
 import Lab7 from './pages/Lab7';
+import Lab8 from './pages/Lab8';
 
-const drawerWidth = 280;
+// Админ страницы
+import AdminDashboard from './pages/AdminDashboard';
+import AdminUsersPage from './pages/AdminUsersPage';
+import AdminFeedbacksPage from './pages/AdminFeedbacksPage';
 
 export default function App() {
   const theme = useTheme();
@@ -59,7 +63,6 @@ export default function App() {
           component="main"
           sx={{
             flexGrow: 1,
-            ml: { md: `${drawerWidth}px` }, // Отступ для drawer на десктопе
             transition: theme.transitions.create(['margin'], {
               easing: theme.transitions.easing.sharp,
               duration: theme.transitions.duration.standard,
@@ -81,6 +84,12 @@ export default function App() {
             <Route path="/lab/5" element={<Lab5 />} />
             <Route path="/lab/6" element={<Lab6 />} />
             <Route path="/lab/7" element={<Lab7 />} />
+            <Route path="/lab/8" element={<Lab8 />} />
+
+            {/* Административные страницы */}
+            <Route path="/admin" element={<AdminDashboard />} />
+            <Route path="/admin/users" element={<AdminUsersPage />} />
+            <Route path="/admin/feedbacks" element={<AdminFeedbacksPage />} />
           </Routes>
         </Box>
       </Box>
